@@ -1,0 +1,9 @@
+{
+	"name": "adf-leaning-iconnect",
+	"location": "southindia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "6f94278e-6a3a-49bc-a279-4adb3416dfcc",
+		"tenantId": "dd830c86-78d6-4c0d-8124-fa9c4607d538"
+	}
+}

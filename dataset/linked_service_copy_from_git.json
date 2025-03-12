@@ -1,0 +1,23 @@
+{
+	"name": "linked_service_copy_from_git",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "linked_service_copy_from_git",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "HttpServerLocation",
+				"relativeUrl": "saurabhshrivastava2111/BigDataAssignments/refs/heads/main/SalesData.csv"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": []
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
